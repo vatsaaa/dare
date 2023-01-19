@@ -1,0 +1,107 @@
+{
+	"Name": "NFTName",	//
+	"Items": "9999",	// Rarity.tools
+	"ID": "000001", // Internal DARE ID - to be created using UUIDs
+	"TrusthWorthiness": {
+		"DARE": "0.812",
+		"User": "0.987",
+		"_comments": [
+			"These scores are determined using propriatory algorithms, which use all the details in the rest of the collection data",
+			"This is the section that eventually determines the ranking that makes DARE unique",
+			"This section is determined at last, however placed here since this is of utmost importance"
+		]
+	},
+	"CollectionWebsite": {
+		"url": "NFTLink", // This is the "Website" link from Rarity.tools
+		"registered": "01-Jan-2022",
+		"registered_to": "RegisteredToName",
+		"image_url": "ImageUrlSrc",
+		"_comments": [
+			"Not sure what is ImageUrlSrc? Perhaps which image we want to show"
+		]
+	},
+	"Tools": {"rarity": "RarityURL","open_sea": "OpenSeaURL","binance": "BinanceURL","rarible": ""},
+	"Created": "05-Jan-2022",	// Check on project Website
+	"Discovered": "04-Jan-2022",	// Date on which initial entry is created
+	"Updated": "03-Feb-2022",		// Update this whenever additional data is found for this collection
+	"Creator": { // TBD
+		"name": "creator_name",
+		"presence": {
+			"sm":[
+				{"name": "Facebook","handle": "whatever","since": "01-Jan-2022","friends": "200", "followers": 456},
+				{"name": "LinkedIn","handle": "whatever","since": "01-Jan-2022","friends": "200", "followers": 876}
+			],
+			"others": {"phones":[8655331817, 1234567890, 1234567], "emails": ["creator@gmail", "creator@yahoo"]}
+		},
+		"Projects":[
+			{"Name": "CurrentProject", "ID": "", "CollectionWebsiteUrl": ""}, 
+			{"Name": "OtherProject", "ID": "", "CollectionWebsiteUrl": ""}
+		],
+		"_comments": [
+			"It is better to keep elements of an array in order of their creation dates",
+			"When there is updation date as well, include that in order-by"
+		]
+	},
+	"MintDate": "01-Jan-2022",
+	"ProjectSocialMedia":{
+		"Twitter":{
+			"Handle": "@project_twttr",
+			"Followers": "985",
+			"Created": "@project handle created on",
+			"Admins": "Test",
+			"UserEngagement": {
+				"NumberOfMessages": "DiscordOnline",
+				"NumberOfUsersAdded": "578",
+				"_comments": [
+					"To be determined from daily observed statistics on Twitter"
+				]
+			}
+		},
+		"Instagram":{
+			"Handle": "@project_igrm",
+			"Followers": "1023",
+			"Created": "01-May-2022",
+			"Admins": "Test",
+			"UserEngagement": {
+				"NumberOfMessages": "DiscordOnline",
+				"NumberOfUsersAdded": "231",
+				"_comments": [
+					"To be determined from daily observed statistics on IG"
+				]
+			}
+		},
+		"Discord":{
+			"Handle": "DiscordUrl",
+			"Followers": "DiscordFollowers",
+			"Created": "01-May-2022",
+			"Admins": "Test",
+			"UserEngagement": {
+				"NumberOfMessages": "DiscordOnline",
+				"NumberOfUsersAdded": "731",
+				"_comments": [
+					"To be determined from daily observed statistics on Discord groups"
+				]
+			}
+		},
+		"_comments": [
+			"These details come from project specific pages on - Rarity, OpenSea, etc..."
+		]
+	},
+	"TradingDetails": {
+		"Volume (7d)": "",
+		"Sales (7d)": "",
+		"Volume (All Time)": "",
+		"Sales (All Time)": "",
+		"Avg Price (7d)": "",
+		"Total Supply": 9998,
+		"Owners": 360,
+		"Owners%": 36.61,
+		"Estimated Market Cap": {"value": 675733.45, "CCY": "ETH"},
+		"Added": "2021/04/03",
+		"_comments": [
+			"Trading details are applicable to NFT Collections from the bottom table of Rarity Tools",
+			"This data is not to be shown on screens, at all",
+			"This data is not to be shown on screens, at all. But it may help in determining recommendations on NFTs."
+		]
+	}
+}
